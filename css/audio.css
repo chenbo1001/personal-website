@@ -1,0 +1,71 @@
+.none
+{
+	display: none;
+}
+.ui-audio{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 1000;
+	
+}
+.coffee-flow {
+	width: 34px;
+	height: 54px;
+}
+
+.coffee-flow strong,.coffee-flow .audio-icon {
+	display: block;
+	height: 34px;
+	line-height: 34px;
+	vertical-align: middle;
+}
+
+.coffee-flow strong {
+	font-size: 20px;
+	color: #fff;
+	opacity: 1;
+	position: absolute;
+	right: 8px;
+	top: 70px;
+	text-align: right;
+}
+
+.coffee-flow .audio-icon {
+	width: 34px;
+	height: 34px;
+	background: url(../images/icon-audio-close.png) no-repeat 0px 0;
+	background-size: 34px;
+	position: absolute;
+}
+.coffee-flow .audio-icon.animated {
+	background: url(../images/icon-audio.png) no-repeat 0px 0;
+	background-size: 34px;
+	-webkit-animation: reverseRotataZ 1.2s linear infinite;
+}
+
+@-webkit-keyframes reverseRotataZ { 
+	0%{
+		-webkit-transform: rotateZ(0deg);
+	}
+	100%{
+		-webkit-transform :rotateZ(-360deg);
+	}
+}
+
+.coffee-flow strong.hide {
+	opacity: 0;
+}
+
+.coffee-flow strong.animated {
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.coffee-steam-box {
+	left: 0 !important;
+}
+
+.coffee-steam img {
+	width: 22px !important;
+}
