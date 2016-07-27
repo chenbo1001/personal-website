@@ -3938,7 +3938,10 @@ hr
 {
     width: 30%;
 }
-
+#design .pic40
+{
+    width: 40%;
+}
 #github
 {
     text-align: center;
