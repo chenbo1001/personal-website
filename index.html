@@ -4,30 +4,67 @@
         about hollidaying
     </title>
     <meta charset="utf-8">
-        <meta content="holidaying" name="author">
-            <meta content="西安小哥，90后前端开发，全栈开发实践者。" name="description">
-                <meta content="西安小哥,holidaying,前端开发" name="keywords">
-                    <meta content="width=device-width, initial-scale=1, user-scalable=0" name="viewport">
-                        <link href="./css/page_icon.css" rel="stylesheet">
-                            <link href="./css/page_style.css" rel="stylesheet">
-                            </link>
-                        </link>
-                    </meta>
-                </meta>
-            </meta>
-        </meta>
+        <meta content="holidaying" name="author"/>
+        <meta content="西安小哥，90后前端开发，全栈开发实践者。" name="description"/>
+        <meta content="西安小哥,holidaying,前端开发" name="keywords"/>
+        <meta content="width=device-width, initial-scale=1, user-scalable=0" name="viewport"/>
+        <link href="./css/page_icon.css" rel="stylesheet"/>
+        <link href="./css/page_style.css" rel="stylesheet"/>
+        <link href="./css/audio.css" rel="stylesheet"/>
     </meta>
 </head>
 <body>
+    <audio class="none" id="audio-a" preload="auto" src="images/mymusic.mp3" style="height: 0px;width: 0px;">
+    </audio>
+    <section class="ui-audio none" id="ui-audio">
+        <div class="coffee-flow" id="coffee-flow">
+            <a class="audio-icon" href="#">
+            </a>
+            <strong class="audio-txt hide">
+                关闭
+            </strong>
+        </div>
+    </section>
     <div class="section " id="header">
         <div class="header_body">
             <div class="logo wow flipInY" style="visibility: visible; animation-name: flipInY;">
                 <div class="rotate">
                     <div class="label">
-                    <p><b>90后</b><i>西安小哥</i> <b>zepto</b><i>前端</i><i>easygoing</i><i>coding</i><b>git</b></p>
-                        <p><b>github</b><b>新技术</b><b>野狗</b></p>
+                        <p>
+                            <b>
+                                90后
+                            </b>
+                            <i>
+                                西安小哥
+                            </i>
+                            <b>
+                                zepto
+                            </b>
+                            <i>
+                                前端
+                            </i>
+                            <i>
+                                easygoing
+                            </i>
+                            <i>
+                                coding
+                            </i>
+                            <b>
+                                git
+                            </b>
+                        </p>
+                        <p>
+                            <b>
+                                github
+                            </b>
+                            <b>
+                                新技术
+                            </b>
+                            <b>
+                                野狗
+                            </b>
+                        </p>
                     </div>
-                    
                 </div>
             </div>
             <div class="intro wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
@@ -101,7 +138,7 @@
                     我喜欢旅游
                 </p>
                 <p>
-                    登上华山最高峰、踏遍九寨最深沟、体验过深圳海
+                    登山华山最高峰、踏遍九寨最深沟、体验过深圳海
                 </p>
                 <p>
                     崇拜设计师、美的东西无处不在
@@ -109,7 +146,7 @@
                 <p>
                 </p>
             </div>
-            <div class="pics half wow fadeInDownBig" style="visibility: hidden; animation-name: none;" >
+            <div class="pics half wow fadeInDownBig" style="visibility: hidden; animation-name: none;">
                 <div class="pic pic20" style="background-image: url(images/shenzhen.jpg);" title="深圳">
                     <img alt="深圳" src="./images/shenzhen.jpg" style="display: none;">
                     </img>
@@ -134,6 +171,10 @@
                     <img alt="镇安镇安" src="./images/zhengan.jpg" style="display: none;">
                     </img>
                 </div>
+                <div class="pic pic40" style="background-image: url(images/zhengan.jpg);" title="镇安">
+                    <img alt="镇安镇安" src="./images/taibaishan.jpg" style="display: none;">
+                    </img>
+                </div> 
             </div>
         </div>
     </div>
@@ -208,8 +249,7 @@
                 </a>
                 <a href="https://dribbble.com/bh_lay" title="dribbble">
                     <i class="l-icon">
-                        <img alt="" src="./images/csdn.png" style="width: 55px">
-                        </img>
+                        <img alt="" src="./images/csdn.png" style="width: 55px"/>
                     </i>
                     <strong>
                         csdn
@@ -228,6 +268,10 @@
     <script src="./js/jquery-github-user-widget.js">
     </script>
     <script src="./js/gallery.js">
+    </script>
+    <script src="js/audio.js">
+    </script>
+    <script src="./js/coffee.js">
     </script>
     <script src="./js/index.js">
     </script>
