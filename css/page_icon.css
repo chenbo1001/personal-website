@@ -3749,7 +3749,8 @@ hr
     color: #fff;
     background: #057;
     background-image: -moz-linear-gradient(top, #057, #4ad);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #057), color-stop(1, #4ad));
+     background-image:url("../images/pm.png") ;
+     background-repeat:repeat;
 }
 
 #header .header_body
@@ -3764,10 +3765,16 @@ hr
 
 #header:before
 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top:0px;
+    bottom: 0px;
     display: inline-block;
-
-    width: 0;
-    height: 90%;
+    background: -webkit-linear-gradient(left top,rgba(0, 85, 119,.9),rgba(68, 170, 221,.8));
+    background: linear-gradient(left top,  rgba(0, 85, 119,.9), rgba(68, 170, 221,.8));
+    /* width: 0; */
+    /* height: 90%; */
 
     content: '';
     vertical-align: middle;
