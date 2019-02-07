@@ -1,5 +1,4 @@
-;(function($){
-	
+$("audio").ready(function(){
 	/**
 	 * 音频组件： 声音播放时，音符飘扬
 	 */
