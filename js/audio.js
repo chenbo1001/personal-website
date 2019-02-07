@@ -166,4 +166,4 @@ $("audio").ready(function(){
 		return this;
 	}
 	
-})(jQuery);
+});
